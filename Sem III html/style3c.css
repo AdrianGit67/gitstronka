@@ -1,0 +1,39 @@
+body{
+    background-color:blanchedalmond;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#kontener{
+    width: 500px;
+    margin: 40px auto;
+    background-color: rgb(236, 232, 220);
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+input{
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid rgb(241, 214, 139);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.wypelnij{
+    margin: 20px;
+}
+label
+{
+    letter-spacing: 1px;
+    color:rgb(85, 57, 5);
+    border-bottom: 1px solid rgb(85, 57, 5);
+}
+input:focus{
+    box-shadow: 0px 0px 10px 3px black ;
+}  
+#zatwierdz{
+    font-family:cursive;
+    font-size: 20px;
+}
+#zatwierdz:hover{
+    background-color: burlywood;
+}
