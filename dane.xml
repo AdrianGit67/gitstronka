@@ -1,0 +1,17 @@
+<faktura>
+    <miejscowosc>Warszawa</miejscowosc>
+    <klient>Adrian Cydejko</klient>
+    
+    <pozycja>
+        <nazwa>Mysz komputerowa</nazwa>
+        <cena>150.50</cena>
+    </pozycja>
+    <pozycja>
+        <nazwa>Klawiatura</nazwa>
+        <cena>320.00</cena>
+    </pozycja>
+    <pozycja>
+        <nazwa>Monitor</nazwa>
+        <cena>800.50</cena>
+    </pozycja>
+</faktura>

@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 237, 248);
+}
+.faktura{
+    background-image: url('zdjecia/faktura.jpg');
+    width: 1200px;
+    height: 800px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+#miejscowosc{ margin-left: 850px; margin-top: 30px; width: 100px;}
+#imienazwisko {position: absolute; left: 450px; top: 135px;}
+#towar1 { position: absolute; left: 450px; top: 275px; width: 200px;}
+#cena1 { position: absolute; top: 275px; left: 900px; width: 50px;}
+#towar2 { position: absolute; left: 450px; top: 298px; width: 200px;}
+#cena2 { position: absolute; top: 298px; left: 900px; width: 50px;}
+#towar3 { position: absolute; left: 450px; top: 320px; width: 200px;}
+#cena3 { position: absolute; top: 320px; left: 900px; width: 50px;}
+#cenakoncowa {position: absolute; top: 455px; left: 550px; width: 100px;}
