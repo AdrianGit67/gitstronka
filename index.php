@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style3c.css" type="text/css">
+</head>
+<body>
+    <div id = "kontener">
+        <form action="dane.php" method = "post">
+            <div class="wypelnij">   
+                <label for="Imie">Imie:</label>
+                <input type="text" id="Imie" name ="imie" placeholder="np. Jan" maxlength="15" required>
+            </div>
+            <div class="wypelnij">   
+                <label for="Nazwisko">Nazwisko:</label>
+                <input type="text" id = "Nazwisko" name = "nazwisko" placeholder="np. Kowalski" maxlength="15" required>
+            </div>
+            <div class="wypelnij">   
+                <label for="miasto">Miasto</label>
+            <input type="text" id = "miasto" name = "miasto"  placeholder="np. Warszawa" required>
+            </div>
+            <div class="wypelnij">   
+                <label for="ulica">Ulica:</label>
+                <input type="text" id = "ulica" name = "ulica" placeholder="np. Marszałkowska" required>
+            </div>
+            <div class="wypelnij">   
+                <label for="tel">Tel:</label>
+                <input type="tel" id = "tel"  name= "tel" placeholder="np. 123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+            </div>
+            
+            <div class="wypelnij">   
+                <label for="mail">E-mail:</label>
+                <input type="email" id = "mail" name = "mail" placeholder="np. JanKowalski@gmail.com" required>
+            </div>
+            <div class="wypelnij">   
+                <label for="haslo">Hasło:</label>
+                <input type="password" id = "haslo" name = "haslo" placeholder="********" maxlength="15" required>
+            </div>
+            <div class="wypelnij">   
+                <label for="data">Data urodzenia:</label>
+                <input type="date" id = "data" name = "data" required>
+            </div>
+            <div class="wypelnij">   
+                <label for="prawoj">Prawo jazdy:</label>
+                <label for="tak">TAK</label>
+                <input type="radio" id = "tak" value="tak" name = "prawoj" required>
+                <label for="nie">NIE</label>
+                <input type="radio" id = "nie" value="nie" name = "prawoj" required>
+            </div>
+            <div class="wypelnij">   
+                <label for="plec">Płeć:</label>
+                <label for="M">M</label>
+                <input type="radio" id = "M" value = "tak" name = "plec" required>
+                <label for="K">K</label>
+                <input type="radio" id = "K" value = "nie" name = "plec" required>
+                <label for="N">NIE POWIEM</label>
+                <input type="radio" id = "N" name = "plec" required>
+            </div>
+            <div class="wypelnij">   
+                <label for="opinia">Opinia:</label>
+                <input type="text" id = "opinia" name = "opinia" placeholder="np. Napisz swoja opinie" maxlength="200">
+            </div>
+            <div class="wypelnij">   
+                <input  id = "zatwierdz" type="submit" name = "zatwierdz">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(238, 201, 145);
+    font-family: Arial, Helvetica, sans-serif;
+}
+table,td,tr{
+    border:4px, rgba(92, 42, 6, 0.726), solid;
+    border-radius: 5px;
+    width: 600px;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+table{
+    height: 700px;
+    background-color: rgb(209, 123, 10);
+    border-radius: 10px;
+}
+td,tr{
+    background-color: rgba(0, 0, 0, 0.705);
+}
+h2{
+    font-size: 60px;
+    color: rgba(92, 42, 6, 0.726);
+}
+td:hover{
+    background-color: rgba(0, 0, 0, 0.171);
+}
